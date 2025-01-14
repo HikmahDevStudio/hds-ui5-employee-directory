@@ -39,8 +39,8 @@
       "routes": [
         {
           "pattern": "",
-          "name": "overview",
-          "target": "overview"
+          "name": "homeApp",
+          "target": "home"
         },
         {
           "pattern": "detail",
@@ -49,9 +49,9 @@
         }
       ],
       "targets": {
-        "overview": {
-          "id": "overview",
-          "viewName": "Overview"
+        "home": {
+          "id": "home",
+          "viewName": "Home"
         },
         "detail": {
           "id": "detail",
