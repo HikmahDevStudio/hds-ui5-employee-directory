@@ -1,0 +1,13 @@
+{
+  "employees": [
+    {
+      "EmployeeID": "1",
+      "FirstName": "John",
+      "LastName": "Doe",
+      "Department": "HR",
+      "Position": "HR Manager",
+      "Location": "New York",
+      "Email": ""
+    }
+  ]
+}

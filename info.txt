@@ -1,0 +1,10 @@
+2 - Description: 
+Build a small employee directory where:
+Employees are displayed in a list (with name, position, and contact info).
+Clicking on an employee shows more details in a separate ObjectPageLayout or Dialog.
+
+Key Concepts Used:
+Data binding with JSON models.
+Navigation and routing.
+Dialog controls for displaying details.
+Table or List binding.

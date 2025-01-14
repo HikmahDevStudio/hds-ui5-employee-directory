@@ -1,0 +1,10 @@
+<mvc:View
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    controllerName="sap.ui.demo.empdirectory.controller.App">
+    <!-- App container control whicch includes the other view inside -->
+    <Shell>
+        <App class="empDirectoryApp" id="app"></App>
+    </Shell>
+</mvc:View>
