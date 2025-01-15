@@ -2,13 +2,13 @@
     xmlns="sap.m"
     xmlns:mvc="sap.ui.core.mvc"
     displayBlock="true"
-    controllerName="sap.ui.demo.empdirectory.controller.Detail">
+    controllerName="sap.ui.demo.empdirectory.controller.EmployeeList">
     <Page 
-        title="Details Page"
+        title="Employee List Page"
         showNavButton="true"
         navButtonPress=".onNavBack">
         <content>
-            <Button text="Detail page"/>
+            <Button text="EmployeeList page"/>
         </content>
     </Page>
 </mvc:View>

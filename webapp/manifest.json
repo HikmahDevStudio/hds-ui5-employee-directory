@@ -43,9 +43,9 @@
           "target": "home"
         },
         {
-          "pattern": "detail",
-          "name": "detail",
-          "target": "detail"
+          "pattern": "employeeList",
+          "name": "employeeList",
+          "target": "employeeList"
         }
       ],
       "targets": {
@@ -53,9 +53,9 @@
           "id": "home",
           "viewName": "Home"
         },
-        "detail": {
-          "id": "detail",
-          "viewName": "Detail"
+        "employeeList": {
+          "id": "employeeList",
+          "viewName": "EmployeeList"
         }
       }
     },
