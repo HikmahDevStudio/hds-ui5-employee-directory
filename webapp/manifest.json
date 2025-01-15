@@ -34,7 +34,10 @@
         "viewPath": "sap.ui.demo.empdirectory.view",
         "viewType": "XML",
         "controlId": "app",
-        "controlAggregation": "pages"
+        "controlAggregation": "pages",
+        "bypassed": {
+          "target": ["notFound"]
+        }
       },
       "routes": [
         {
@@ -51,11 +54,18 @@
       "targets": {
         "home": {
           "id": "home",
-          "viewName": "Home"
+          "viewName": "Home",
+          "viewLevel": 1
         },
         "employeeList": {
           "id": "employeeList",
-          "viewName": "EmployeeList"
+          "viewName": "EmployeeList",
+          "viewLevel": 2
+        },
+        "notFound": {
+          "id": "notFound",
+          "viewName": "NotFound",
+          "transition": "show"
         }
       }
     },

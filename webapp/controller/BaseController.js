@@ -9,6 +9,11 @@ sap.ui.define(
         getRouter() {
           return UIComponent.getRouterFor(this);
         },
+
+        onNavBack() {
+          console.log("+++ onNavBack");
+          this.getRouter().navTo("homeApp");
+        },
       }
     );
   }

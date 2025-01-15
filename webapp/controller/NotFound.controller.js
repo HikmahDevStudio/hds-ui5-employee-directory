@@ -4,10 +4,10 @@ sap.ui.define(
     "use strict";
 
     return BaseController.extend(
-      "sap.ui.demo.empdirectory.controller.EmployeeList",
+      "sap.ui.demo.empdirectory.controller.NotFound",
       {
         onInit() {
-          console.log("+++ EmployeeList controller initialized ----");
+          console.log("+++ NotFound controller initialized ----");
         },
       }
     );
