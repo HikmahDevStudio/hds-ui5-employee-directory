@@ -1,6 +1,10 @@
 sap.ui.define(
-  ["sap/ui/core/mvc/Controller", "sap/ui/core/UIComponent"],
-  (Controller, UIComponent) => {
+  [
+    "sap/ui/core/mvc/Controller",
+    "sap/ui/core/UIComponent",
+    "sap/ui/core/routing/History",
+  ],
+  (Controller, UIComponent, History) => {
     "use strict";
 
     return Controller.extend(
@@ -11,8 +15,12 @@ sap.ui.define(
         },
 
         onNavBack() {
-          console.log("+++ onNavBack");
-          this.getRouter().navTo("homeApp");
+          const oHistory = History.getInstance();
+          const sPreviousHash = oHistory.getPreviousHash();
+
+          sPreviousHash !== undefined
+            ? window.history.go(-1)
+            : this.getRouter().navTo("homeApp", {}, true);
         },
       }
     );
