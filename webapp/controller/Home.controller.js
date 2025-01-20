@@ -9,7 +9,7 @@ sap.ui.define(
       },
 
       onShowEmployeeBtnPress() {
-        console.log("++++ onShowEmployeeListBtnPress ++++");
+        console.log("++++ onShowEmployeeListBtnPress +++++");
         this.getRouter().navTo("employeeList");
       },
     });
