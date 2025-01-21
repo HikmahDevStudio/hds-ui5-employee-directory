@@ -4,9 +4,7 @@ sap.ui.define(
     "use strict";
 
     return BaseController.extend("sap.ui.demo.empdirectory.controller.App", {
-      onInit() {
-        console.log("+++ App controller initialized ----");
-      },
+      onInit() {},
     });
   }
 );

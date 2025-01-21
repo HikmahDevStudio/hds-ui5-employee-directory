@@ -6,9 +6,7 @@ sap.ui.define(
     return BaseController.extend(
       "sap.ui.demo.empdirectory.controller.EmployeeList",
       {
-        onInit() {
-          console.log("+++ EmployeeList controller initialized ----");
-        },
+        onInit() {},
       }
     );
   }

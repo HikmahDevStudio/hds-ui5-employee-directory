@@ -6,9 +6,7 @@ sap.ui.define(
     return BaseController.extend(
       "sap.ui.demo.empdirectory.controller.Overview",
       {
-        onInit() {
-          console.log("+++ Overview controller initialized ----");
-        },
+        onInit() {},
       }
     );
   }

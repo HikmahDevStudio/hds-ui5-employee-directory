@@ -6,9 +6,7 @@ sap.ui.define(
     return BaseController.extend(
       "sap.ui.demo.empdirectory.controller.NotFound",
       {
-        onInit() {
-          console.log("+++ NotFound controller initialized ----");
-        },
+        onInit() {},
       }
     );
   }

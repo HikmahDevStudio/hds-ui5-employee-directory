@@ -4,12 +4,9 @@ sap.ui.define(
     "use strict";
 
     return BaseController.extend("sap.ui.demo.empdirectory.controller.Home", {
-      onInit() {
-        console.log("+++ Home Controller +++");
-      },
+      onInit() {},
 
       onShowEmployeeBtnPress() {
-        console.log("++++ onShowEmployeeListBtnPress +++++");
         this.getRouter().navTo("employeeList");
       },
     });
