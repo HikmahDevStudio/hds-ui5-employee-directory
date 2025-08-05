@@ -1,0 +1,59 @@
+{
+  "employees": [
+    {
+      "EmployeeID": 100,
+      "FirstName": "John",
+      "LastName": "Doe",
+      "Department": "HR",
+      "Position": "ED",
+      "Location": "New York",
+      "Gender": "Male",
+      "Married": false,
+      "Email": "John.doe@gmail.com"
+    },
+    {
+      "EmployeeID": 200,
+      "FirstName": "Harry",
+      "LastName": "Potter",
+      "Department": "Legal",
+      "Position": "SVP",
+      "Location": "London",
+      "Gender": "Male",
+      "Married": true,
+      "Email": "harry.potter@gmail.com"
+    },
+    {
+      "EmployeeID": 300,
+      "FirstName": "Patrick",
+      "LastName": "Lee",
+      "Department": "QA",
+      "Position": "Manager",
+      "Location": "Singapore",
+      "Gender": "Male",
+      "Married": false,
+      "Email": "patrick.lee@gmail.com"
+    },
+    {
+      "EmployeeID": 400,
+      "FirstName": "Adam",
+      "LastName": "Gilchrist",
+      "Department": "Customer Relationship",
+      "Position": "AVP",
+      "Location": "New York",
+      "Gender": "Male",
+      "Married": true,
+      "Email": "adam.chilchrist@gmail.com"
+    },
+    {
+      "EmployeeID": 100,
+      "FirstName": "Ricky",
+      "LastName": "Ponting",
+      "Department": "Sports",
+      "Position": "MD",
+      "Location": "Sydney",
+      "Gender": "Male",
+      "Married": true,
+      "Email": "ricky.ponting@gmail.com"
+    }
+  ]
+}
