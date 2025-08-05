@@ -1,94 +1,101 @@
 {
-  "_version": "1.65.0",
-  "sap.app": {
-    "id": "sap.ui.demo.empdirectory",
-    "type": "application",
-    "i18n": "i18n/i18n.properties",
-    "title": "{{appTitle}}",
-    "description": "{{appDescription}}",
-    "applicationVersion": {
-      "version": "1.0.0"
-    }
-  },
-  "sap.ui": {
-    "technology": "UI5",
-    "deviceTypes": {
-      "desktop": true,
-      "tablet": true,
-      "phone": true
-    }
-  },
-  "sap.ui5": {
-    "contentDensities": {
-      "compact": true,
-      "cozy": true
-    },
-    "rootView": {
-      "viewName": "sap.ui.demo.empdirectory.view.App",
-      "type": "XML",
-      "id": "app"
-    },
-    "routing": {
-      "config": {
-        "routerClass": "sap.m.routing.Router",
-        "viewPath": "sap.ui.demo.empdirectory.view",
-        "viewType": "XML",
-        "controlId": "app",
-        "controlAggregation": "pages",
-        "bypassed": {
-          "target": ["notFound"]
-        }
-      },
-      "routes": [
-        {
-          "pattern": "",
-          "name": "homeApp",
-          "target": "home"
+    "_version": "1.65.0",
+    "sap.app": {
+        "id": "sap.ui.demo.empdirectory",
+        "type": "application",
+        "i18n": "i18n/i18n.properties",
+        "title": "{{appTitle}}",
+        "description": "{{appDescription}}",
+        "applicationVersion": {
+            "version": "1.0.0"
         },
-        {
-          "pattern": "employeeList",
-          "name": "employeeList",
-          "target": "employeeList"
+        "sourceTemplate": {
+            "id": "@sap/ux-app-migrator:freestyle",
+            "version": "1.18.4",
+            "toolsId": "74567e3f-1c4b-4ed6-97ef-bc09e31aff53"
         }
-      ],
-      "targets": {
-        "home": {
-          "id": "home",
-          "viewName": "Home",
-          "viewLevel": 1
-        },
-        "employeeList": {
-          "id": "employeeList",
-          "viewName": "EmployeeList",
-          "viewLevel": 2
-        },
-        "notFound": {
-          "id": "notFound",
-          "viewName": "NotFound",
-          "transition": "show"
-        }
-      }
     },
-    "dependencies": {
-      "minUI5Version": "1.71.0",
-      "libs": {
-        "sap.ui.core": {},
-        "sap.m": {},
-        "sap.f": {},
-        "sap.ui.layout": {}
-      }
-    },
-    "models": {
-      "": {
-        "type": "sap.ui.model.json.JSONModel",
-        "uri": "model/employees.json"
-      },
-      "i18n": {
-        "type": "sap.ui.model.resource.ResourceModel",
-        "settings": {
-          "bundleName": "sap.ui.demo.empdirectory.i18n.i18n"
+    "sap.ui": {
+        "technology": "UI5",
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
         }
-      }
+    },
+    "sap.ui5": {
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        },
+        "rootView": {
+            "viewName": "sap.ui.demo.empdirectory.view.App",
+            "type": "XML",
+            "id": "app"
+        },
+        "routing": {
+            "config": {
+                "routerClass": "sap.m.routing.Router",
+                "viewPath": "sap.ui.demo.empdirectory.view",
+                "viewType": "XML",
+                "controlId": "app",
+                "controlAggregation": "pages",
+                "bypassed": {
+                    "target": [
+                        "notFound"
+                    ]
+                }
+            },
+            "routes": [
+                {
+                    "pattern": "",
+                    "name": "homeApp",
+                    "target": "home"
+                },
+                {
+                    "pattern": "employeeList",
+                    "name": "employeeList",
+                    "target": "employeeList"
+                }
+            ],
+            "targets": {
+                "home": {
+                    "id": "home",
+                    "viewName": "Home",
+                    "viewLevel": 1
+                },
+                "employeeList": {
+                    "id": "employeeList",
+                    "viewName": "EmployeeList",
+                    "viewLevel": 2
+                },
+                "notFound": {
+                    "id": "notFound",
+                    "viewName": "NotFound",
+                    "transition": "show"
+                }
+            }
+        },
+        "dependencies": {
+            "minUI5Version": "1.71.0",
+            "libs": {
+                "sap.ui.core": {},
+                "sap.m": {},
+                "sap.f": {},
+                "sap.ui.layout": {}
+            }
+        },
+        "models": {
+            "": {
+                "type": "sap.ui.model.json.JSONModel",
+                "uri": "model/employees.json"
+            },
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "settings": {
+                    "bundleName": "sap.ui.demo.empdirectory.i18n.i18n"
+                }
+            }
+        }
     }
-  }
 }
