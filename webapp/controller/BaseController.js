@@ -6,8 +6,8 @@ sap.ui.define(
   ],
   (Controller, UIComponent, History) => {
     "use strict";
-    
-    console.log("+++ this is the BaseCntroller of the application");
+
+    console.log("+++ this is the BaseController of the application");
 
     return Controller.extend(
       "sap.ui.demo.empdirectory.controller.BaseController",

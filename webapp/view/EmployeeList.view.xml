@@ -7,8 +7,11 @@
         title="Employee List Page"
         showNavButton="true"
         navButtonPress=".onNavBack">
-        <content>
-            <Button text="EmployeeList page"/>
-        </content>
+        <Button text="EmployeeList page"/>
+        <List items="{/employees}">
+            <items>
+                <StandardListItem title="{FirstName}"/>
+            </items>
+        </List>
     </Page>
 </mvc:View>
