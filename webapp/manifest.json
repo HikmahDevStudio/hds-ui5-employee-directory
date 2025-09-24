@@ -29,7 +29,7 @@
       "cozy": true
     },
     "rootView": {
-      "viewName": "shds.ui5.employeedirectory.view.App",
+      "viewName": "hds.ui5.employeedirectory.view.App",
       "type": "XML",
       "id": "app"
     },
