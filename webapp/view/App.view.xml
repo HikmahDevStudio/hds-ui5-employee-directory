@@ -2,7 +2,7 @@
     xmlns="sap.m"
     xmlns:mvc="sap.ui.core.mvc"
     displayBlock="true"
-    controllerName="sap.ui.demo.empdirectory.controller.App">
+    controllerName="hds.ui5.employeedirectory.controller.App">
     <!-- App container control whicch includes the other view inside -->
     <Shell>
         <App id="app"></App>

@@ -10,7 +10,7 @@ sap.ui.define(
     console.log("+++ this is the BaseController of the application");
 
     return Controller.extend(
-      "sap.ui.demo.empdirectory.controller.BaseController",
+      "hds.ui5.employeedirectory.controller.BaseController",
       {
         getRouter() {
           return UIComponent.getRouterFor(this);

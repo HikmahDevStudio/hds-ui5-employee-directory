@@ -1,5 +1,5 @@
 <mvc:View
-    controllerName="sap.ui.demo.empdirectory.controller.NotFound"
+    controllerName="hds.ui5.employeedirectory.controller.NotFound"
     xmlns="sap.m"
     xmlns:mvc="sap.ui.core.mvc">
     <Page title="Not Found" showNavButton="true" navButtonPress=".onNavBack"></Page>

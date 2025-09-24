@@ -3,7 +3,7 @@ sap.ui.define(
   (UIComponent, JSONModel) => {
     "use strict";
 
-    return UIComponent.extend("sap.ui.demo.empdirectory.Component", {
+    return UIComponent.extend("hds.ui5.employeedirectory.Component", {
       metadata: {
         manifest: "json",
       },
