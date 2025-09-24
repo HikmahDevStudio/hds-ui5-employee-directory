@@ -2,7 +2,7 @@
     xmlns="sap.m"
     xmlns:mvc="sap.ui.core.mvc"
     displayBlock="true"
-    controllerName="sap.ui.demo.empdirectory.controller.EmployeeList">
+    controllerName="hds.ui5.employeedirectory.controller.EmployeeList">
     <Page 
         title="Employee List Page"
         showNavButton="true"

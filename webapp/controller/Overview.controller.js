@@ -1,10 +1,10 @@
 sap.ui.define(
-  ["sap/ui/demo/empdirectory/controller/BaseController"],
+  ["hds/ui5/employeedirectory/controller/BaseController"],
   (BaseController) => {
     "use strict";
 
     return BaseController.extend(
-      "sap.ui.demo.empdirectory.controller.Overview",
+      "hds.ui5.employeedirectory.controller.Overview",
       {
         onInit() {},
       }
